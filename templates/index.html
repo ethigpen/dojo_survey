@@ -16,20 +16,44 @@
         </div>
         <div class="form-group">
             <label for="dojo_location">Dojo Location:</label>
-            <select name="dojo_location" >
-                <option value="San Jose">San Jose</option>
-                <option value="Texas">Texas</option>
-                <option value="Online">Online</option>
-            </select>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name='dojo_location' value="San Jose">
+                <label class="form-check-label" for="dojo_location">
+                San Jose
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name='dojo_location' value="Texas">
+                <label class="form-check-label" for="dojo_location">
+                Texas
+                </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name='dojo_location' value="Online">
+                <label class="form-check-label" for="dojo_location">
+                Online
+                </label>
+            </div>
         </div>
         <div class="form-group">
-            <label for="fav_language">Favorite Language:</label>
-            <select name="fav_language">
-                <option value="Python">Python</option>
-                <option value="C#">C#</option>
-                <option value="Java">Java</option>
-                <option value="MERN">MERN</option>
-            </select>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="fav_language" value="Python">
+                <label class="form-check-label" for="fav_language">
+                Python
+                </label>
+            </div>
+            <div class="form-check">
+                    <input class="form-check-input" type="radio" name="fav_language" value="C#">
+                    <label class="form-check-label" for="fav_language">
+                    C#
+                    </label>
+            </div>
+            <div class="form-check">
+                    <input class="form-check-input" type="radio" name="fav_language" value="MERN">
+                    <label class="form-check-label" for="fav_language">
+                    MERN
+                    </label>
+            </div>
         </div>
         <div class="form-group">
             <label for="comment">Comment (optional):</label>
