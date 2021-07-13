@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Results</title>
+</head>
+<body class='container'>
+    <h1><u>Submitted Info</u></h1>
+    <table class='table table-responsive'>
+        <tr>
+            <td>Name:</td>
+            <td>{{session['name']}}</td>
+        </tr>
+        <tr>
+            <td>Dojo Locaton:</td>
+            <td>{{session['dojo_location']}}</td>
+        </tr>
+        <tr>
+            <td>Favorite Language:</td>
+            <td>{{session['fav_language']}}</td>
+        </tr>
+        <tr>
+            <td>Comment:</td>
+            <td>{{session['comment']}}</td>
+        </tr>
+    </table>
+</body>
+</html>
